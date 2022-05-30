@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Header } from '../header/header';
 import { Counter } from '../counter/counter';
+import { Circle } from '../circle/circle';
 
 function App() {
     return (
@@ -22,6 +23,9 @@ function App() {
                 </a>
                 <Counter initial={0}></Counter>
                 <Counter initial={10}></Counter>
+                <div>
+                    <Circle></Circle>
+                </div>
             </header>
         </div>
     );

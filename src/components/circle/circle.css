@@ -1,0 +1,10 @@
+.circle div {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.circle div.active {
+    background-color: darkgoldenrod;
+}
